@@ -28,7 +28,29 @@ We provide GitHub links pointing to the PyTorch implementation code for all netw
 [U-Net](https://github.com/milesial/Pytorch-UNet);[SegNet](https://github.com/vinceecws/SegNet_PyTorch?tab=readme-ov-file);[ICNet](https://github.com/hszhao/ICNet);[MRUNet](https://github.com/cyan-utokyo/MRUnet.git);[DconnNet](https://github.com/Zyun-Y/DconnNet);[PSPNet](https://github.com/hszhao/PSPNet.git);[UNet+Att](https://github.com/EvilPsyCHo/Attention-PyTorch.git);[DAttUNet](https://github.com/faresbougourzi/PDAtt-Unet);[Attention R2UNet](https://github.com/LeeJunHyun/Image_Segmentation);[poly pvt](https://github.com/DengPingFan/Polyp-PVT.git);[BAT](https://github.com/sharkdp/bat.git);[MDViT](https://github.com/siyi-wind/MDViT.git);[TransUNet](https://github.com/Beckschen/TransUNet.git);[UNeXt](https://github.com/jeya-maria-jose/UNeXt-pytorch.git);[TransFuse](https://github.com/Rayicer/TransFuse.git);[MambaHSI](https://github.com/li-yapeng/MambaHSI.git).
 
 
+### Results
+Table 1: 在三类SAR数据集（SARBuD，HRSID，FRBS）上，S3T-Net与以往模型的分割结果比较
 
+<div align=left>
+  <img src="Table/1.jpg">
+</div>
+<p align=left>
+   Segmentation results are presented on SARBuD data.
+</p>
+
+<div align=left>
+  <img src="Table/2.jpg">
+</div>
+<p align=left>
+   Segmentation results are presented on HRSID data.
+</p>
+
+<div align=left>
+  <img src="Table/3.jpg">
+</div>
+<p align=left>
+   Segmentation results are presented on FRBS data.
+</p>
 
 #### Visual segmentation results
 其中Or表示输入的原始图像，（a）~（h）列按照表3中的Dice系数以此排名的分割可视化图，（i）为S3T-Net。
